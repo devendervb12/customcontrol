@@ -8,6 +8,6 @@ sap.ui.core.Control.extend("smax.ui.Text", {
 	},
 	renderer : function(oRm, oControl){
 		oRm.write("<p>"+oControl.getText()+"</p>")
-	}
+	} //testing
 });
 
